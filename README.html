@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>ID3write : Projects : digiGeek.net</title>
+        <meta name="author" content="Robert Weiler" />
+        <meta name="owner" content="Robert Weiler" />
+        <meta name="publisher" content="Robert Weiler" />
+        <meta name="copyright" content="(c) 2003 Robert Weiler" />
+        <meta name="language" content="en" />
+        <meta name="robots" content="index,follow,noarchive" />
+        <meta name="revisit-after" content="14 days" />
+        <meta name="keywords" content="mp3, id3, id3v2, perl, python, ruby, tag, tags" />
+        <meta name="description" content="ID3write is a script for adding ID3 information to MP3 files, aka tagging. Written in Perl, Python and Ruby, the Ruby version being the preferred one." />
+    </head>
+    <body>
+        <h1>ID3write</h1>
+        <p>ID3write is a script for adding ID3 information to MP3 files, aka tagging. Written in Ruby, Perl and Python, the Ruby version being the preferred one.</p>
+        <h2>Description</h2>
+        <p>ID3write can be used to tag all MP3 files in a directory with artist, album, track number and title information. Artist and album name can be passed via command line parameter or via input, track number and title are extracted from the filename. ID3write relies on the external tools <var>mp3info</var> and <var>id3v2</var> to delete old and add new ID3 tags.</p>
+        <p>ID3write was designed to work with filenames following the pattern <var>[trackno] - [title].mp3</var>, i.e. <var>12 - The Auld Triangle.mp3</var>. This would extract the value <var>12</var> as track number and <var>The Auld Triangle</var> as title. ID3write also tries to figure out how many tracks are in the directory in total, counting files that end with <var>.mp3</var>. That information is added to the corresponding ID3v2 field.</p>
+        <p>Please note that ID3write always searches for MP3 files in the current directory. You cannot pass a working directory to ID3write.</p>
+        <h2>Requirements</h2>
+        <p>ID3write requires a Ruby interpreter and the two tools <var>mp3info</var> and <var>id3v2</var>. It was tested with Ruby 1.8 under Linux only.</p>
+        <h2>Options</h2>
+        <table class="options" border="1" cellspacing="0" cellpadding="4" summary="Options">
+            <tr>
+                <td>-a STRING</td>
+                <td>Used to pass the artist name via command line.</td>
+            </tr>
+            <tr>
+                <td>-l STRING</td>
+                <td>Used to pass the album name via command line.</td>
+            </tr>
+        </table>
+        <h2>License</h2>
+        <p>ID3write is released under the MIT license and the GNU General Public License. You can choose which license applies to you. See the files LICENSE-MIT and LICENSE-GPL included in the archive for details.</p>
+        <h2>Copyright</h2>
+        <p>ID3write is (c) 2003 <a href="http://www.robwei.de/" title="visit Robert's personal homepage (German)">Robert Weiler</a>.</p>
+        <h2>See also</h2>
+        <ul>
+            <li><a href="http://www.ruby-lang.org/">Ruby Language Home Page</a></li>
+        </ul>
+        <hr />
+        <p style="text-align: center;">a <a href="http://digigeek.net/">digiGeek.net</a> project</p>
+    </body>
+</html>
