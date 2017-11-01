@@ -6,8 +6,8 @@
 # ID3 information is written using the external programs mp3info and id3v2.
 # Artist and album can be passed using the parameters -a and -l.
 
-# (c) 2003 Robert Weiler
-# Released under the MIT license. <https://opensource.org/licenses/MIT>
+# (c) 2003 Robert Weiler.
+# Released under the Zlib License, see LICENSE.
 
 class MP3
 	@@count      = 0

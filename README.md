@@ -23,7 +23,7 @@ ID3write requires a Ruby interpreter and the two tools `mp3info` and `id3v2`. It
 
 ## License
 
-ID3write is released under the [MIT license](https://opensource.org/licenses/MIT).
+ID3write is released under the [Zlib License](https://opensource.org/licenses/Zlib).
 
 ## Copyright
 
