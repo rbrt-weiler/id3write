@@ -16,6 +16,8 @@ ID3write requires a Ruby interpreter and the two tools `mp3info` and `id3v2`. It
 
 ## Options
 
+| Option    | Description                                    |
+| --------- | ---------------------------------------------- |
 | -a STRING | Used to pass the artist name via command line. |
 | -l STRING | Used to pass the album name via command line.  |
 
