@@ -21,6 +21,10 @@ ID3write requires a Ruby interpreter and the two tools `mp3info` and `id3v2`. It
 | -a STRING | Used to pass the artist name via command line. |
 | -l STRING | Used to pass the album name via command line.  |
 
+## Source
+
+The main repository for ID3write is located at GitLab: [https://gitlab.com/rbrt-weiler/id3write](https://gitlab.com/rbrt-weiler/id3write)
+
 ## License
 
 ID3write is released under the [Zlib License](https://opensource.org/licenses/Zlib).
