@@ -32,4 +32,3 @@ ID3write is released under the [Zlib License](https://opensource.org/licenses/Zl
 ## Copyright
 
 ID3write is (c) 2003 Robert Weiler.
-
